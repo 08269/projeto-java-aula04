@@ -11,6 +11,10 @@ package com.alysson.aula04;
 public class Aula04 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       JFTela app = new JFTela();
+       app.setTitle("GITHUB");
+       app.setLocationRelativeTo(app);
+       app.setVisible(true);
+       
     }
 }
